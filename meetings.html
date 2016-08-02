@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for meeting in site.meetings %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ meeting.url }}">{{ meeting.title }}</a></h1>
+
+      <div class="entry">
+        {{ meeting.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ meeting.url }}" class="button button-primary">Read Minutes</a>
+    </article>
+  {% endfor %}
+</div>

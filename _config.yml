@@ -79,3 +79,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+collections:
+  meetings:
+    output: true
