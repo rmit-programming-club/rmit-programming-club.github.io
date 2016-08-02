@@ -17,41 +17,19 @@
   </head>
 
   <body>
-
     <div class="intro-header">
-        <div class="wrapper-masthead">
-         <div class="container">
-           <header class="masthead clearfix">
-             <div class="site-info">
-               <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-               <p class="site-description">{{ site.description }}</p>
-             </div>
-             <nav>
-               <a href="{{ site.baseurl }}/">Blog</a>
-               <a href="{{ site.baseurl }}/about">About</a>
-               <a href="{{ site.baseurl }}/contact">Contact Us</a>
-             </nav>
-           </header>
-         </div>
-       </div>
-
-        <div class="container">
-            <div class="space-small"></div>
-
-            <div class="centered">
-              <ul class="ch-grid">
-                <li>
-                    <div class="ch-item ch-img-1">
-
-                    </div>
-                </li>
-            </ul>
+      <div class="container">
+        <div class="post-heading">
+            <h1>{{page.title}}</h1>
+            <span class="meta">Posted by <a href="{{ site.baseurl }}/about"> {{page.author}}
+            </a> on {{ page.date | date: "%B %e, %Y" }}
+            <a href="{{ site.baseurl }}/"> { Return to Blog }</a>
+            </span>
         </div>
 
-             <div class="space-medium"></div>
-
-        </div>
+      </div>
     </div>
+
 
     <div id="main" role="main" class="container">
       {{ content }}
@@ -66,6 +44,7 @@
         </footer>
       </div>
     </div>
+
 
     {% include analytics.html %}
   </body>
