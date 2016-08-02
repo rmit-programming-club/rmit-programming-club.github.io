@@ -213,7 +213,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; 
+  margin-top: 12px; 
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -230,7 +230,7 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
-    
+
     &:hover, &:active {
       color: darken($navbar-hover-color,20);
     }
