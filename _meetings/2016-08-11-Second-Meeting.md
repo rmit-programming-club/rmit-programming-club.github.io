@@ -4,7 +4,8 @@ title: August 11th Meeting
 author: Jonathon Belotti
 ---
 
-# Meeting Minutes
+We played around with Git and Github
+
 ---
 ## August 11, 2016 Meeting Minutes
 
@@ -16,9 +17,7 @@ Jonathon, Louis, Ramadan, Doan, Johan, Adi, Jason, Christopher, Ari
 
 ### Agenda Items
 
-| Item | Item Description |
-|---------------------------------------------|-----------------------------------------------------|
-| Nothing For This Week |  - |
+Nothing for this week.
 
 ### Problems and Topics
 
