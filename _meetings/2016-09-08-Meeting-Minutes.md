@@ -6,8 +6,8 @@ author: Jonathon Belotti
 
 Some web development and python coding
 
----
 ## September 8th, 2016 Meeting Minutes
+---
 
 A meeting of the **CSIT Programming Club** at **80.10.19** on **September 8, 2016**
 
