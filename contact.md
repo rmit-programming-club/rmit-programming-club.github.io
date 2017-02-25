@@ -10,7 +10,7 @@ Club event announcements are made on [this website](http://rmitprogramming.club)
 
 ## Contact Us
 
-**Email:** [jono@rmitprogramming.club](mailto:jono@rmitprogramming.club)
+**Email:** [rmit.programming.club@gmail.com](mailto:rmit.programming.club@gmail.com)
 
 **Phone:** 0429 835 565
 
