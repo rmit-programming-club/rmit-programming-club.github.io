@@ -14,4 +14,4 @@ Club event announcements are made on [this website](http://rmitprogramming.club)
 
 **Phone:** 0429 835 565
 
-**CSIT Society Facebook Group:** [https://www.facebook.com/groups/rmit.ases/](https://www.facebook.com/groups/rmit.ases/)
+**CSIT Society Facebook Group:** [https://www.facebook.com/groups/rmitprogramming.club/](https://www.facebook.com/groups/rmitprogramming.club/)
