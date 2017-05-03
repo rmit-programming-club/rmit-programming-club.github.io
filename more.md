@@ -3,8 +3,6 @@ layout: page
 title: More
 permalink: /more/
 ---
-## Contact Us
-
 **Hackathonqueen** 
 
 Hackathonqueen is a great resource for a list of and information on local hackathons.
