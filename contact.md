@@ -8,7 +8,6 @@ The club communicates to members over Facebook and Slack, so if you would like t
 
 Club event announcements are made on [this website](http://rmitprogramming.club), the [CSIT Society Facebook group](https://www.facebook.com/groups/rmit.ases/), and in an email newsletter.
 
-## Contact Us
 
 **Email:** [programming.club@rmit.edu.au](mailto:programming.club@rmit.edu.au)
 

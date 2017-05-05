@@ -10,10 +10,4 @@ The club is in its infancy and thus its direction is still being determined by t
 
 Weekly meetings are starting up, and the details of those meetings are available on this site, so that you may better understand what we're about.
 
-If you would like to join the club, or otherwise become involved, please don't hesitate to email.
 
-## Contact Us
-
-**Email:** [jono@rmitprogramming.club](mailto:jono@rmitprogramming.club)
-
-**Phone:** 0429 835 565 
