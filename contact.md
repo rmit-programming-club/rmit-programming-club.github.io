@@ -10,13 +10,20 @@ Club event announcements are made on [this website](http://rmitprogramming.club)
 
 
 **Email** 
+
 [programming.club@rmit.edu.au](mailto:programming.club@rmit.edu.au)
 
+
 **Phone** 
+
 0429 835 565
 
+
 **RMIT Programming Club Facebook Group** 
+
 [https://www.facebook.com/groups/rmitprogramming.club/](https://www.facebook.com/groups/rmitprogramming.club/)
 
+
 **RMIT Programming Club RUSU Page** 
+
 [https://rusu.rmit.edu.au/Clubs/programming](https://rusu.rmit.edu.au/Clubs/programming)
