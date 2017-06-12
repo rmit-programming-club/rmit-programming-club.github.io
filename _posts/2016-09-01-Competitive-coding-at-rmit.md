@@ -18,7 +18,7 @@ not ready for competition. This is all OK, but if RMIT had at least 1 competitiv
 If you yourself want to join with a few others to become this team, or know someone else appropiate, please contact the club! Here are a few key things that would make a good member, but you don't neccessarily need to possess all of them.
 
 1. Previous experience at competitive programming competitions
-2. Confidence coding in C++ or Java (Python is a desirable high-level language by is sometimes too slow)
+2. Confidence coding in C++ or Java (Python is a desirable high-level language but is sometimes too slow)
 3. Experience with Algorithmic problem solving
 4. A competitive drive 
 
