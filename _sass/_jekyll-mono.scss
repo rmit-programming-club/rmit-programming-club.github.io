@@ -78,24 +78,27 @@ button.button-primary:focus {
 
 // Header
 .intro-header {
-  background-color:$mono-color;
-}
+  background-color: $mono-color;
+	
+	.post-heading {
+		padding: 80px 0;
+		color: $white;
+		box-sizing: border-box;
 
-.intro-header .post-heading {
-  padding: 100px 0 50px;
-  color: $white;
-}
-
-.intro-header .post-heading h1 {
-    color:$white;
-    font-size: 36px;
-    line-height: 1.5;
-    font-family:$raleway;
+ 		h1 {
+			margin-top: 0;
+			color: $white;
+			font-size: 36px;
+			line-height: 1.5;
+			font-family:$raleway;
+		}
+	}
 }
 
 @media only screen and (min-width: 768px) {
-  .intro-header .post-heading{
-    padding: 150px 0;
+  .intro-header .post-heading {
+    padding: 100px 0;
+	box-sizing: border-box;
   }
 }
 
@@ -115,11 +118,11 @@ button.button-primary:focus {
 // SVG icons
 .svg-icon {
     a {
-      color:darken($mono-color,10);
-      cursor: pointer;
-      &:hover {
-        color: darken($mono-color,20);
-      }
+		color:darken($mono-color,10);
+		cursor: pointer;
+		&:hover {
+			color: darken($mono-color,20);
+		}
     }
 }
 
@@ -184,7 +187,7 @@ button.button-primary:focus {
 	height: 100%;
 	border-radius: 50%;
 	background-position: center center;
-	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
 .ch-info .ch-info-front {
@@ -235,7 +238,6 @@ button.button-primary:focus {
 	font-style: italic;
 	margin: 0 30px;
 	font-size: 12px;
-
 }
 
 .ch-info p a {

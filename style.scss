@@ -1,25 +1,16 @@
 ---
 ---
-
-//
 // IMPORTS
-//
-
 @import "reset";
 @import "variables";
-
 
 /**************/
 /* BASE RULES */
 /**************/
 
-html {
-  font-size: 100%;
-}
-
 body {
   background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 16px $helvetica, sans-serif;
   color: $darkGray;
 }
 
@@ -34,7 +25,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
-
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -211,6 +201,11 @@ img {
   }
 }
 
+#blog-return {
+  display: block;
+  margin-top: 40px;
+}
+
 nav {
   float: right;
   margin-top: 12px; 
@@ -288,5 +283,4 @@ footer {
   text-align: center;
 }
 
-@import "highlights";
 @import "jekyll-mono";
