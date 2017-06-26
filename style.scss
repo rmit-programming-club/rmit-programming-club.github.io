@@ -10,7 +10,7 @@
 
 body {
   background: $white;
-  font: 16px $helvetica, sans-serif;
+  font: 18px $helvetica, sans-serif;
   color: $darkGray;
 }
 
@@ -59,6 +59,7 @@ h4 {
 
 p {
   margin: 15px 0;
+  line-height: 1.5;
 }
 
 a {
