@@ -1,18 +1,26 @@
 ---
 layout: default
+index: true
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+        <div class="row">
+            <div class="col-md-1"></div>
+              <!-- Blog Post Links -->
+              <div class="blog-post-small">
+                {% for post in site.posts %}
+                  <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+                  <p><i class="fa fa-calendar"></i> &nbsp;{{ post.date | date: "%b %-d, %Y" }}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+                  </p>
+                  {% if post.content contains '<!-- more -->' %}
+                    <p>{{ post.content | split:'<!-- more -->' | first }}
+                      <br>
+                      <a href="{{ post.url }}">Read More</a>
+                    </p>
+                  {% else %}
+                    {{ post.content }}
+                  {% endif %}
+                {% endfor %}
+            	</div>
+            <div class="col-md-1"></div>
+         </div>
