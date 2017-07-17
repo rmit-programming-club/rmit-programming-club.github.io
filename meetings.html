@@ -1,18 +1,27 @@
 ---
 layout: default
+title: Meetings
+permalink: /meetings/
 ---
 
-<div class="posts">
-  {% for meeting in site.meetings %}
-    <article class="post">
+         <div class="row">
+            <div class="col-md-1"></div>
+              <!-- Meetings Links -->
+              <div class="blog-post-small">     
+                {% for meeting in site.meetings reversed %}
+                  <h1><a href="{{ meetings.url | prepend: site.baseurl }}">{{ meeting.title }}</a></h1>
+                  <p><i class="fa fa-calendar"></i> &nbsp;{{ meeting.date | date: "%b %-d, %Y" }}
 
-      <h1><a href="{{ site.baseurl }}{{ meeting.url }}">{{ meeting.title }}</a></h1>
-
-      <div class="entry">
-        {{ meeting.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ meeting.url }}" class="button button-primary">Read Minutes</a>
-    </article>
-  {% endfor %}
-</div>
+                  </p>
+                  {% if meeting.content contains '<!-- more -->' %}
+                    <p>{{ meeting. | split:'<!-- more -->' | first }}
+                      <br><br>
+                      <a href="{{ meetings.url }}"class="btn btn-primary btn-sm">Read More</a>
+                    </p>
+                  {% else %}
+                    {{ meeting.content }}
+                  {% endif %}
+                {% endfor %}
+            	</div>
+            <div class="col-md-1"></div>
+         </div>
