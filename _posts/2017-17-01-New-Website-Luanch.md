@@ -19,4 +19,4 @@ Features of the site:
 - Uses Font Awesome
 - Uses Animate.css
 
-This site is currently in Public Beta, the repo for the public beta can be found [here](https://github.com/patrickmfsd/patrickmfsd.github.io).
+The repo for the public beta can be found [here](https://github.com/rmit-programming-club/rmit-programming-club.github.io).
