@@ -1,6 +1,7 @@
 # RMIT Programming Club Website 2.0 Public Beta
 
 Created and Maintained by: Patrick Mifsud
+
 [Trello Board](https://trello.com/b/PEYYpOfd)
 
 ## About
