@@ -1,4 +1,4 @@
-# RMIT Programming Club Website 2.0 Public Beta
+# RMIT Programming Club Website 2.0
 
 Created and Maintained by: Patrick Mifsud
 
