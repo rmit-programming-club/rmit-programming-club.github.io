@@ -1,15 +1,9 @@
 ---
-layout: blog
+layout: default
 ---
 
-<article class="post">
- <div class="space-extra-small">
- </div>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-
-  {% include disqus.html %}
-</article>
-
+	    <h1>{{ page.title }}</h1>        
+	    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+	  	<article class="blog-post-small blog-post-content">
+	    	{{ content }}
+	  	</article>

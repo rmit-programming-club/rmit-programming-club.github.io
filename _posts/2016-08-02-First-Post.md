@@ -6,6 +6,9 @@ author: Jonathon Belotti
 
 This is the first post on RMIT Programming Club's new website. This blog feed will contain all event news, meeting minutes, and project updates for the club.
 
+<!-- more -->
+
+
 ## The New RMIT Programming Club
 -----
 
