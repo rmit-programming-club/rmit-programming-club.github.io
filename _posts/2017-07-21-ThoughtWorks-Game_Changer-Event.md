@@ -3,8 +3,7 @@ layout: post
 title: ThoughtWorks 'Game_Changers' Event
 author: Patrick Mifsud
 ---
-
-Its the beginning of a new semester and we are proud to invite to come and join us for our first industry meet up at 7pm Thursday, 27th July with guest speakers Lily, Jasmine and Eugene, from ThoughtWorks!
+It's the beginning of a new semester and we are proud to invite to come and join us for our first industry meet up at 7pm Thursday, 27th July with guest speakers Lily, Jasmine and Eugene, from ThoughtWorks!
 
 <!-- more -->
 
@@ -14,17 +13,17 @@ Its the beginning of a new semester and we are proud to invite to come and join 
 - Jasmine Ong (Software Developer, ThoughtWorks)
 - Eugene Tang (Graduate Software Engineer, ThoughtWorks)
 
+### Schedule
+ 
+6:45pm             - Registration              
+7pm - 7:15pm       - Welcome and Introductions 
+7:15pm - 7:45pm    - Speaker - Jasmine         
+7:45pm- 8pm        - 15 min Q/A and food break 
+8pm - 8:30pm       - 2nd Speaker - Eugene     
+8:30pm- 8:45pm     - 15 min Q/A and food break 
+8:45pm - 9:15pm    - 3rd Speaker - Lily        
+9:15pm- 9:30pm     - 15 min Q/A and food break 
 
-| Time               | Topic                     |
-| ------------------ | ------------------------- |
-| 6:45pm             | Registration              |
-| 7pm - 7:15pm       | Welcome and Introductions |
-| 7:15pm - 7:45pm    | Speaker - Jasmine         |
-| 7:45pm- 8pm        | 15 min Q/A and food break |
-| 8pm - 8:30pm       | 2nd Speaker - Eugene      |
-| 8:30pm- 8:45pm     | 15 min Q/A and food break |
-| 8:45pm - 9:15pm    | 3rd Speaker - Lily        |
-| 9:15pm- 9:30pm     | 15 min Q/A and food break |
 
 
 This is a free event, but you must register for a ticket you can register bellow via Eventbrite. Food and drink will be supplied.
