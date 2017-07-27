@@ -1,6 +1,10 @@
 .meetingbanner {
 	background-color: #d8363d;
 	padding-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
 	p {
 		font-size: 18px;
 		color: white;
