@@ -9,9 +9,8 @@ index: true
               <div class="blog-post-small">
                 {% for post in site.posts %}
                   <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-                  <p><i class="fa fa-calendar"></i> &nbsp;{{ post.date | date: "%b %-d, %Y" }}
-
-                  </p>
+                  <p><i class="fa fa-calendar"></i> &nbsp;{{ post.date | date: "%b %-d, %Y" }} &nbsp; {{post.author}}</p>
+                  <br/>                  
                   {% if post.content contains '<!-- more -->' %}
                     <p>{{ post.content | split:'<!-- more -->' | first }}
                       <br>
