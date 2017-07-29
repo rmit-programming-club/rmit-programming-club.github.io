@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ThoughtWorks 'Game_Changers' Event
+title: ThoughtWorks 'Game_Changers' Event [Ended]
 author: Patrick Mifsud
 ---
 It's the beginning of a new semester and we are proud to invite to come and join us for our first industry meet up at 7pm Thursday, 27th July with guest speakers Lily, Jasmine and Eugene, from ThoughtWorks!
