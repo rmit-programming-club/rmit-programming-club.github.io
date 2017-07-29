@@ -1,6 +1,6 @@
 .meetingbanner {
 	background-color: #d8363d;
-	padding: 5px;
+	padding-top: 5px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -199,5 +199,12 @@
 @media screen and (max-width: 900px) {
   .left-syms li a span {
     display: block;
+  }
+  .meetingbanner {
+  	padding-left: 5%;
+	padding-right: 5%;
+  }
+  .logo {
+  	width: 55%;
   }
 }
