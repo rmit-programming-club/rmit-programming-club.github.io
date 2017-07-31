@@ -10,7 +10,8 @@
     font-size: 15px;
     background-color: transparent;
     border: 1px solid transparent;
-    border-radius: 0
+    border-radius: 0;
+    visibility: hidden;
 }
 
 .meetingbanner {
@@ -222,5 +223,9 @@
   }
   .logo {
   	width: 65;
+  }
+  
+  .dm-toggle{
+    visibility: visible ;
   }
 }
