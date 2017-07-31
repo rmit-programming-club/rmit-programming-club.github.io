@@ -1,7 +1,7 @@
 ---
 layout: page
-title: More
-permalink: /more/
+title: Resources
+permalink: /resources/
 ---
 **Hackathonqueen** 
 
