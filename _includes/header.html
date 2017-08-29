@@ -27,24 +27,38 @@
         </button>
         <button type="button" onclick="theme()" class="fa fa-adjust theme dm-toggle collasped" aria-hidden="true">
 		</button>
+		
+        <!--  Collasped Navbar	 -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".leftsyms">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <!-- Collapsed Button Bar -->
+        <button type="button" class="navbar-toggle collapsed buttons" data-toggle="collapse" data-target=".buttonbar">
+           <span class="fa fa-chevron-down" aria-hidden="true"></span>
+        </button>
       </div>
       
       <div class="navbar-collapse collapse navbar-inverse-collapse" style="padding-right: 5%; padding-left: 5%;">
       	<!-- Page Links -->
         <ul class="nav navbar-nav">
-            <li><a href="/">Blog</a>
-            <li><a href="/projects">Projects</a>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/projects">Projects</a></li>
             <li><a href="https://rusu.rmit.edu.au/Clubs/programming" target="_blank">Membership</a></li>
-            <li><a href="/about">About</a>
-            <li><a href="/contact">Contact</a>
-            <li><a href="/sponsors">Sponsors</a>
-			<li><a href="https://www.redbubble.com/people/rmitprogramming/shop" target="_blank">Store</a>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/sponsors">Sponsors</a></li>
+			<li><a href="https://www.redbubble.com/people/rmitprogramming/shop" target="_blank">Store</a></li>
 		</ul>
-		<!-- Social and Dark Mode Buttons-->
-        <ul class="nav navbar-nav navbar-right left-syms">
-			<li><a href="https://facebook.com/groups/{{site.fb_username}}" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-			<li><a href="http://github.com/{{ site.github_username}}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-			<li><a><i onclick="theme()" class="fa fa-adjust theme" aria-hidden="true"></i></a></li>
-	    </ul>
       </div>
+      <!-- Social and Dark Mode Buttons-->
+      <div class="navbar-collapse navbar-inverse-collapse buttonbar collapse" style="padding-right: 5%; padding-left: 5%; height: 1px;">
+            <ul class="nav navbar-nav">
+                <li><a href="https://facebook.com/groups/rmitprogramming.club" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a href="http://github.com/rmit-programming-club" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a><i onclick="theme()" class="fa fa-adjust theme" aria-hidden="true"></i></a></li>
+	        </ul>
+	    </div>
     </div>
