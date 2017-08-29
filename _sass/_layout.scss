@@ -1,9 +1,20 @@
-.buttons {
-    float: right;
-    span {
-        color: white
-    }
+// Icon Bar
+.iconbar {
+	padding-top: 5px;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	margin: 0
 }
+
+.iconbar p{
+    font-size: 18px;
+}
+
+.iconbar .fa{
+    padding: 5px;
+}
+
 
 
 // Dark Mode Togle for Mobile View
