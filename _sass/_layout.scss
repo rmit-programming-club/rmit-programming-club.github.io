@@ -79,6 +79,7 @@
 
 .navbar {
   margin-bottom: 0px;
+  width: 100%;
 }
 
 .navbar-inverse {
@@ -127,9 +128,6 @@
     .icon-bar {
       background-color: #ffffff;
     }
-  }
-  .navbar-collapse {
-      width: 100%;
   }
   .navbar-collapse, .navbar-form {
     border-color: #007196;
