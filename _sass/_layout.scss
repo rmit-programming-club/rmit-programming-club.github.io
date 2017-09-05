@@ -128,6 +128,9 @@
       background-color: #ffffff;
     }
   }
+  .navbar-collapse {
+      width: 100%;
+  }
   .navbar-collapse, .navbar-form {
     border-color: #007196;
   }
@@ -224,9 +227,5 @@
   }
   .logo {
   	width: 65;
-  }
-  
-  .dm-toggle{
-    visibility: visible ;
   }
 }
