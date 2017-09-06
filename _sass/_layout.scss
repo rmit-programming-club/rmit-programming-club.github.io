@@ -82,6 +82,10 @@
     width: 100%;
 }
 
+.nav > li > a {
+   	font-size: 15px;
+    font-weight: normal;
+}
 
 @media (min-width: 900px) {
     .navbar {
