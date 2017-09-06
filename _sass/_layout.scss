@@ -78,9 +78,18 @@
 }
 
 .navbar {
-    display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+
+@media (min-width: 900px) {
+    .navbar {
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap
+    }
 }
 
 .navbar-nav > li {
