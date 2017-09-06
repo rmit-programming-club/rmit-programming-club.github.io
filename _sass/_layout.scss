@@ -78,9 +78,15 @@
 }
 
 .navbar {
-  margin-bottom: 0px;
-  width: 100%;
+    display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
+
+.navbar-nav > li {
+    float: center;    
+    width: 120px;
+    text-align: center;
 
 .navbar-inverse {
   background-color: #141414;
@@ -99,8 +105,8 @@
     li > a {
       color: #ffffff;
       &:hover, &:focus {
-        color: #ffffff;
-        background-color: #d8363d;
+        color: #d8363d;
+        background-color: transparent;
       }
     }
     .active > a {
