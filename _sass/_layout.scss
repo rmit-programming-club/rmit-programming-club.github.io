@@ -90,12 +90,11 @@
         justify-content: center;
         flex-wrap: wrap
     }
-}
-
-.navbar-nav > li {
-    float: center;    
-    width: 120px;
-    text-align: center;
+    .navbar-nav > li {
+        float: center;    
+        width: 120px;
+        text-align: center;
+    }
 }
 
 .navbar-inverse {
