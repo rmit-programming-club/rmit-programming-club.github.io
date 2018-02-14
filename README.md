@@ -1,4 +1,4 @@
-# RMIT Programming Club Website 2.0 Public Beta
+# RMIT Programming Club Website 2.0
 
 Created and Maintained by: Patrick Mifsud
 
@@ -19,17 +19,17 @@ Features of the site:
 - Uses Font Awesome
 - Uses Animate.css
 
-## How to post a Blog or Meeting Entry
+## How to post an Announcement
 
 1. Create a Markdown file with the following file name format "YYYY-MM-DD-Post-Name.md". 
 2. Follow the templates below for each kind of post. 
-3. Save Blog posts in "\_posts" folder and save Meeting posts in "\_meetings" folder.
+3. Save Announcements posts in "\_posts" folder.
 4. Submit pull request on GitHub.
 
 A useful resource on Markdown can be found [here](https://daringfireball.net/projects/markdown/).
 
 
-### Blog Post Format
+### Announcement Post Format
 
 	---
 	layout: post
@@ -43,32 +43,3 @@ A useful resource on Markdown can be found [here](https://daringfireball.net/pro
 
 	Post Content
 
-
-### Meeting Post Format
-
-	---
-	layout: post
-	title: 
-	author: 
-	---
-
-	## Meeting of October 13th 2016 
-
-	Short Description
-
-	<!-- more -->
-
-	### Members In Attendance
-	List Members
-
-	### Agenda Items
-	List Agenda Items
-
-
-	### Problems and Topics
-
-	1. 
-	2. 
-
-	### Relevant Links
-	* List Links that related to discussed items
