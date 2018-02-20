@@ -2,7 +2,7 @@
 layout: post
 title: The New Website Design
 author: Patrick Mifsud
-categories: Club News
+categories: [Club News]
 
 ---
 
