@@ -4,6 +4,7 @@ layout: default
 
 	    <h1>{{ page.title }}</h1>        
 	    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+	    <p>{{page.categories | capitalize | join: ', '}}</p>
 	  	<article class="blog-post-small blog-post-content">
 	    	{{ content }}
 	  	</article>

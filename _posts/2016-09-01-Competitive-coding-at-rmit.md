@@ -2,6 +2,7 @@
 layout: post
 title: Competitive Coding At RMIT
 author: Jonathon Belotti
+categories: Club News
 ---
 
 Today I met with Melbourne Uni's competitive programming team leader to discuss collaboration.
