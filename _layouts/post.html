@@ -4,7 +4,17 @@ layout: default
 
 	    <h1>{{ page.title }}</h1>        
 	    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
-	    <p>{{page.categories | capitalize | join: ', '}}</p>
+	    <div class="post-categories">
+			{% if post %}
+				{% assign categories = post.categories %}
+			{% else %}
+				{% assign categories = page.categories %}
+			{% endif %}
+			{% for category in categories %}
+			<a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+			{% unless forloop.last %}&nbsp;{% endunless %}
+			{% endfor %}
+		</div>
 	  	<article class="blog-post-small blog-post-content">
 	    	{{ content }}
 	  	</article>
