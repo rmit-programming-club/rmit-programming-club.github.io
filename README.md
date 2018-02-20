@@ -35,6 +35,7 @@ A useful resource on Markdown can be found [here](https://daringfireball.net/pro
 	layout: post
 	title: 
 	author: 
+	categories: [ ]
 	---
 
 	Short Description
