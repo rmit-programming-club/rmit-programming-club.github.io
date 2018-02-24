@@ -12,9 +12,9 @@ index: true
                   <p><i class="fa fa-calendar"></i> &nbsp;{{ post.date | date: "%b %-d, %Y" }} &nbsp; Post By: {{post.author}}</p>
                   {% if post.content contains '<!-- more -->' %}
                     <p>{{ post.content | split:'<!-- more -->' | first }}
-                      <br>
                       <a href="{{ post.url }}">Read More</a>
                     </p>
+                    <br>
                   {% else %}
                     {{ post.content }}
                   {% endif %}
