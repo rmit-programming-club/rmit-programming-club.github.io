@@ -45,6 +45,7 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 10px;
 }
 
 .logo {
@@ -53,9 +54,9 @@ a:hover {
     margin-left: auto;
     margin-right: auto; 
 }
+
 .blog-theme-class {
   margin-top:0;
-  padding-bottom: 10px;
   background:inherit;
   .jumb-bot {
     background:inherit;
