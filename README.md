@@ -1,6 +1,6 @@
 # RMIT Programming Club Website 
 
-Created and Maintained by: [Patrick Mifsud](https://github.com/patrickmfsd)
+Created and Maintained by: [patrickmfsd](https://github.com/patrickmfsd)
 
 [Trello Board](https://trello.com/b/PEYYpOfd)
 
@@ -8,7 +8,7 @@ Created and Maintained by: [Patrick Mifsud](https://github.com/patrickmfsd)
 
 Welcome to the repository for the The Programming Club Website.
 
-This repository contains the files used for generating the website. The site uses Jekyll, a static site generator and uses GitHub Pages for hosting. The theme  being used is [Miniplistic] (https://github.com/patrickmfsd/Miniplistic) created by [Patrick Mifsud](https://github.com/patrickmfsd)
+This repository contains the files used for generating the website. The site uses Jekyll, a static site generator and uses GitHub Pages for hosting. The theme  being used is [Miniplistic](https://github.com/patrickmfsd/Miniplistic) created by [patrickmfsd](https://github.com/patrickmfsd)
 
 Features of the theme:
 
