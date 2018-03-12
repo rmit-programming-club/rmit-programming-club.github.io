@@ -23,6 +23,12 @@ baseurl: ""
 # Favicon
 favicon: /images/favicon.png
 
+# Site Logo
+sitelogo: /images/site-logo.png
+
+# Footer Logo
+footerlogo: /images/footerlogo.png
+
 #
 # Social Links
 #
