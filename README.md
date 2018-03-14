@@ -6,8 +6,8 @@ Created and Maintained by: [patrickmfsd](https://github.com/patrickmfsd)
 
 ## Contents
 1. [About](#about)
-3. [How to post an Announcement](#how_to_post_an_announcement)
-	1. [Announcement Post Format](#announcement_post_format)
+3. [How to post an Announcement](#how-to-post-an-announcement)
+	1. [Announcement Post Format](#announcement-post-format)
 
 ## About
 
