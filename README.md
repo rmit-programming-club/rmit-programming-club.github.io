@@ -4,6 +4,11 @@ Created and Maintained by: [patrickmfsd](https://github.com/patrickmfsd)
 
 [Trello Board](https://trello.com/b/PEYYpOfd)
 
+## Contents
+1. [About](#about)
+3. [How to post an Announcement](#how_to_post_an_announcement)
+	1. [Announcement Post Format](#announcement_post_format)
+
 ## About
 
 Welcome to the repository for the The Programming Club Website.
