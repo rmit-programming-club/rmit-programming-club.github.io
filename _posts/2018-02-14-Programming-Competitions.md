@@ -38,4 +38,4 @@ TalkingData Adtracking Fraud Detection Description:
 >While successful, they want to always be one step ahead of fraudsters and have turned to the Kaggle community for help in further developing their solution. In their 2nd competition with Kaggle, you’re challenged to build an algorithm that predicts whether a user will download an app after clicking a mobile app ad. To support your modeling, they have provided a generous dataset covering approximately 200 million clicks over 4 days!
 
 
-For Members that are interested in joining a team for these competitions should email us at the [programming.club@rmit.edu.au](programming.club@rmit.edu.au)
+For Members that are interested in joining a team for these competitions should email us at the <programming.club@rmit.edu.au>
