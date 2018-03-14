@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Programming Competions
+title: Programming Competitions
 author: Patrick Mifsud
 categories: [Club News]
 ---
@@ -10,14 +10,15 @@ Programming Competitions are great way to improve ones programming skills while 
 
 Reasons to Participate: 
 
-* Improve skills and coding ability. Can help you write cleaner code, improve debugging skills and help with memorising programming concepts.
+* Improve skills and coding ability. 
+Can help you write cleaner code, improve debugging skills and help with memorising programming concepts.
 * Working in a team environment.
 * Challenges you to think.
 * Helps with your future career.
 * They are fun!
 
 
-## Kaggle Programming Competions 
+## Kaggle Programming Competitions 
 
 ### [iMaterialist Challenge (Furniture)](https://www.kaggle.com/c/imaterialist-challenge-furniture-2018)
 
