@@ -8,9 +8,8 @@ We will be running two Git Workshops at this weeks meet ups.
 
 <!-- more -->
 
-The Workshops will be lead by Byron Fisher, and will be running on Tuesday and Thursday. 
+The Workshops will be lead by Byron Fisher, and will be running on Tuesday and Thursday. The workshops that are running are:
 
-The workshops running will be
 
 **Getting started with CodeHub**
 
@@ -25,5 +24,5 @@ Thursday, 22 March @ 2:30pm - 3:30pm
 
 RMIT Activator, Building 98
 
-The Programming Club will be running its normal agendas during this time as well.
 
+The Programming Club will be running its normal agendas during this time as well.
