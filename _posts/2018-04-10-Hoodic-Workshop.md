@@ -2,7 +2,7 @@
 layout: post
 title: Hoodic Workshop on 12th April 2018
 author: Patrick Mifsud
-categories: [Events], [Workshops]
+categories: [Club News, Workshops, Events]
 ---
 
 Exciting news! Stephen from [Hoodic](https://hoodic.com) will be running our first free workshop 'How to get work as a Software Developer/Technical Person' of 2018 on Thursday 12th April at 1PM.
