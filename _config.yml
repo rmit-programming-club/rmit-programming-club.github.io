@@ -37,11 +37,11 @@ email: programming.club@rmit.edu.au
 # Nav Bar Links (Add new or change pages if your site requires it)
 blog: "/" 
 projects: "/projects"
-Membership: "https://rusu.rmit.edu.au/Clubs/programming"
+membership: "rusu.rmit.edu.au/Clubs/programming"
 contact: "/contact"
 about: "/about"
 sponsors: "/sponsors"
-store: "https://www.redbubble.com/people/rmitprogramming/shop"
+store: "www.redbubble.com/people/rmitprogramming/shop"
 resources: "/resoureces"
 
 # !! You don't need to change any of the configuration flags below !!
