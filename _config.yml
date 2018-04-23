@@ -29,24 +29,32 @@ sitelogo: /images/site-logo.png
 # Footer Logo
 footerlogo: /images/footerlogo.png
 
-#
 # Social Links
-#
-
-# Github
-github_username:  rmit-programming-club
-
-# FaceBook
+github_username: rmit-programming-club
 fb_username: rmitprogramming.club
-
-# Email Address
 email: programming.club@rmit.edu.au
 
-#
+# Nav Bar Links (Add new or change pages if your site requires it)
+blog: "/" 
+projects: "/projects"
+Membership: "https://rusu.rmit.edu.au/Clubs/programming"
+contact: "/contact"
+about: "/about"
+sponsors: "/sponsors"
+store: "https://www.redbubble.com/people/rmitprogramming/shop"
+resources: "/resoureces"
+
 # !! You don't need to change any of the configuration flags below !!
-#
+
+# Pagenate support
+paginate: 5
+paginate_path: "/page:num/"
 
 permalink: /:title/
+
+# This will require each of these plugins automatically.
+plugins:
+  - jekyll-paginate 
 
 # Build settings
 markdown: kramdown

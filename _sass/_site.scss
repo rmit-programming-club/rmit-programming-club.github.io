@@ -1,0 +1,97 @@
+html {
+	font-family:sans-serif;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+}
+
+body {
+	margin:0;
+}
+
+// Link Color
+a {
+	color:#C84443 !important;
+	text-decoration:none !important;
+}
+
+a:hover {
+	color:#C84443 !important;
+	text-decoration:underline !important;
+}
+
+// Icon Bar
+.iconbar {
+	padding-top:5px;
+	display:flex;
+	justify-content:center;
+	margin:0;
+}
+
+.iconbar a {
+	font-size:20px;
+	margin:0;
+}
+
+.iconbar .fa {
+	padding:5px;
+}	
+
+// Sign-Up link
+.membersignup {
+	display:flex;
+	justify-content:center;
+	align-self:center;
+	padding-bottom:10px;
+}
+
+// Alert Banner
+.alert {
+    margin-bottom: 0 !important;
+    border: none !important; 
+    border-radius: 0 !important;
+    background-color: #6B944A !important;
+    color: white !important;
+    text-align: center !important;
+    padding-left: 56px !important;
+}
+
+// Site logo/banner
+.logo {
+	max-width:70%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+// Nav Bar
+.nav-link{
+	color: white !important;
+	font-size: 20px;
+}
+
+.nav-link:hover {
+	text-decoration: none !important;
+	color: #C84443 !important;
+}
+
+
+// Needed For mobile layout
+.bodycontent {
+	padding-left:10%;
+	padding-right:10%;
+	margin-right: 0 !important;
+}
+
+// Footer
+.sitefooter {
+	border-bottom:#2b2b2b 1px solid !important;
+	background:#363A3F !important;
+	color:#fff !important;
+	text-align:center !important;
+}	
+
+.footer-logo {
+	padding:0;
+	justify-content:center;
+	align-items:center;
+}
