@@ -20,6 +20,9 @@ url: http://rmitprogramming.club
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+# Banner Text
+bannertext: "Meetings Tuesday & Thursdays 2:30-3:30pm (RMIT Activator ~ 98.3.01)"
+
 # Favicon
 favicon: /images/favicon.png
 
