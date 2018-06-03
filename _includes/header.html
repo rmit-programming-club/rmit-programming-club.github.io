@@ -1,3 +1,6 @@
+ 
+ <div class="site-header">
+ 
  <!-- Icon Bar (Github, Facbook, Dark Mode Togle -->
 <div class="col-md-12 iconbar">
 	<a href="http://github.com/{{github_username}}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -13,13 +16,8 @@
 	<a href="{{ site.baseurl }}{{ site.membership }}" target="_blank">Become a Member, Join Us</a> 
 </div>   
 
-<!-- Alert/notify users of something, this is dismissible -->         
-<div class="alert alert-dismissible fade show alert-danger" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">×</span>
-  </button>
-  {{ site.bannertext }}
-</div>
+ </div>
+
 
 <!-- Navigation Bar -->
 <nav class="nav navbar justify-content-center navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -54,3 +52,11 @@
 		</div>
 	</nav>
 </nav>
+
+<!-- Alert/notify users of something, this is dismissible -->         
+<div class="alert alert-dismissible fade show alert-danger" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">×</span>
+  </button>
+  {{ site.bannertext }}
+</div>
