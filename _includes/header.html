@@ -1,56 +1,58 @@
  
  <div class="site-header">
  
- <!-- Icon Bar (Github, Facbook, Dark Mode Togle -->
-<div class="col-md-12 iconbar">
-	<a href="http://github.com/{{github_username}}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-	<a href="https://facebook.com/groups/{{fb_username}}" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-	<a><i onclick="theme()" class="fa fa-adjust theme" aria-hidden="true"></i></a>
-</div>
-
-<!-- Logo -->
-<a href=" {{ site.baseurl }}{{ site.blog }} "><img class="logo animated fadeInDown" src="{{site.baseurl}}{{ site.sitelogo }}" alt="site logo"></a>
-
-<!-- Quick sign up for membership  -->
-<div class="membersignup col-md-12 animated tada">
-	<a href="{{ site.baseurl }}{{ site.membership }}" target="_blank">Become a Member, Join Us</a> 
-</div>   
+	 <!-- Icon Bar (Github, Facbook, Dark Mode Togle -->
+	<div class="col-md-12 iconbar">
+		<a href="http://github.com/{{github_username}}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+		<a href="https://facebook.com/groups/{{fb_username}}" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+		<a><i onclick="theme()" class="fa fa-adjust theme" aria-hidden="true"></i></a>
+	</div>
+	
+	<!-- Logo -->
+	<a href=" {{ site.baseurl }}{{ site.blog }} "><img class="logo animated fadeInDown" src="{{site.baseurl}}{{ site.sitelogo }}" alt="site logo"></a>
+	
+	<!-- Quick sign up for membership  -->
+	<div class="membersignup col-md-12 animated tada">
+		<a href="{{ site.baseurl }}{{ site.membership }}" target="_blank">Become a Member, Join Us</a> 
+	</div>   
 
  </div>
 
 
 <!-- Navigation Bar -->
 <nav class="nav navbar justify-content-center navbar-expand-lg navbar-dark bg-dark sticky-top">
-	<nav class="navbar ">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sitenav" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="sitenav">
-			<ul class="nav navbar-nav mr-auto mt-2 mt-lg-0">
-				<li class="nav-item">
-					<a class="nav-link" href="{{ site.baseurl }}{{ site.blog }}">Blog</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="{{ site.baseurl }}{{ site.projects }}">Projects</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="{{ site.baseurl }}{{ site.membership }}" target="_blank">Membership</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="{{ site.baseurl }}{{ site.about }}">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="{{ site.baseurl }}{{ site.contact }}">Contact</a>
-				</li>    
-				<li class="nav-item">
-					<a class="nav-link" href="{{ site.baseurl }}{{ site.sponsors }}">Sponsors</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="{{ site.baseurl }}{{ site.store }}">Store</a></a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+	<nav class="nav">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sitenav" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	
+	<div class="collapse navbar-collapse" id="sitenav">
+		<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+			<li class="nav-item">
+				<a class="nav-link" href="{{ site.baseurl }}{{ site.blog }}">Blog</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ site.baseurl }}{{ site.projects }}">Projects</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ site.baseurl }}{{ site.membership }}" target="_blank">Membership</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ site.baseurl }}{{ site.about }}">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ site.baseurl }}{{ site.contact }}">Contact</a>
+			</li>    
+			<li class="nav-item">
+				<a class="nav-link" href="{{ site.baseurl }}{{ site.sponsors }}">Sponsors</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ site.baseurl }}{{ site.store }}">Store</a>
+			</li>
+			
+		</ul>
+	</div>
+</nav>
 </nav>
 
 <!-- Alert/notify users of something, this is dismissible -->         
