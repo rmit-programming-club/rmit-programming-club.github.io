@@ -33,8 +33,8 @@ sitelogo: /images/site-logo.png
 footerlogo: /images/footerlogo.png
 
 # Social Links
-github_username: rmit-programming-club
-fb_username: rmitprogramming.club
+github: https://github.com/rmit-programming-club/
+facebook: https://www.facebook.com/groups/rmitprogramming.club/
 email: programming.club@rmit.edu.au
 
 # Nav Bar Links (Add new or change pages if your site requires it)
