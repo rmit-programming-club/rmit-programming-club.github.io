@@ -50,7 +50,7 @@ resources: "/resoureces"
 # !! You don't need to change any of the configuration flags below !!
 
 # Pagenate support
-paginate: 5
+paginate: 4 # Post limit more than this content is hidden behind footer
 paginate_path: "/page:num/"
 
 permalink: /:title/
