@@ -2,24 +2,16 @@
 <html>
   {% include head.html %}
   <body>	
-	  <div id="wrapper">
-		<div id="header">
-			{% include header.html %}
-		</div>
-		<div id="content">
-			<!-- Content -->
-		    <div class="row animated fadeIn bodycontent">
-				<div class="col-md-10">
-		        	{{ content }}
-				</div> 
-		    </div>
-		</div>
-		<div id="footer">
-			<div class="col-md-12">
-		    	{% include footer.html %}
-		    </div>
-		</div>
-	</div>
-	{% include include_js.html %}   
+    {% include header.html %}
+	<!-- Content -->
+    <div class="row animated fadeIn bodycontent">
+	    <div>
+			{{ content }}
+	    </div>
+    </div>
+    <div class="col-md-12">
+    	{% include footer.html %}
+    </div>
+    	{% include include_js.html %}   
   </body>
 </html>

@@ -14,29 +14,6 @@ body {
 	margin:0;
 }
 
-html,
-body {
-   margin:0;
-   padding:0;
-   height:100%;
-}
-
-#wrapper {
-   min-height:100%;
-   position:relative;
-}
-
-#content {
-   padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
-}
-
-#footer {
-   position:absolute;
-   bottom:0;
-   width: 100%;
- }
-
 .navbar-toggler {
      outline: none !important;
      border: none !important;
