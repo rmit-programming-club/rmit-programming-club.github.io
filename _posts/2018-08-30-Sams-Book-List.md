@@ -11,6 +11,8 @@ I'm Sam Nolan, first year computer science student and known to know a lot of
 "classics in the field". I'll just go through a few of my favourite programming
 related books for you bookworms to put your nose through.
 
+<!-- more -->
+
 ## Code quality
 ### Code Complete 2
 If there ever was an introduction to code quality, it's Code Complete 2. Completely
