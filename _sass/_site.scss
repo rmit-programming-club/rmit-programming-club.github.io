@@ -1,3 +1,14 @@
+@media (prefers-color-scheme: dark) {
+    /* Overrides for Dark Mode. */
+    body {
+        color: white !important;
+        background: #212425 !important;
+    }
+    #dm {
+        display: none;
+    }
+}
+
 html {
 	font-family:sans-serif;
 	-ms-text-size-adjust:100%;
