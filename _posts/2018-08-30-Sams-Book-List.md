@@ -18,7 +18,7 @@ related books for you bookworms to put your nose through.
 If there ever was an introduction to code quality, it's Code Complete 2. Completely
 non political or controversial. Other than the fact that it states that this style:
 
-```javascript
+```
 if() {
 
 }
@@ -26,7 +26,7 @@ if() {
 
 is in all ways superior to this style
 
-```javascript
+```
 if() 
 {
 
