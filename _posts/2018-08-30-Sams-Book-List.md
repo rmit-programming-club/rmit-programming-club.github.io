@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sam's Book list
+title: Sam's Book List
 author: Sam Nolan
 categories: [Books]
 ---
