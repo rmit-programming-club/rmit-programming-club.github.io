@@ -9,11 +9,15 @@
     }
 }
 
+
 html {
-	font-family:sans-serif;
+    font-family:  -apple-system, BlinkMacSystemFont,
+    “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”,
+    “Droid Sans”, “Helvetica Neue”, sans-serif;
+    
 	-ms-text-size-adjust:100%;
 	-webkit-text-size-adjust:100%;
-	
 }
 
 .site-header{
@@ -25,9 +29,41 @@ body {
 	margin:0;
 }
 
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#wrapper {
+   min-height:100%;
+   position:relative;
+}
+
+#content {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width: 100%;
+ }
+
+
 .navbar-toggler {
      outline: none !important;
      border: none !important;
+}
+
+.highlight {
+    background-color: #353A3F !important;
+    color: white !important;
+    padding: 5px 20px;
+    border-radius: 3px;
+    border: 1px;
 }
 
 // Link Color
