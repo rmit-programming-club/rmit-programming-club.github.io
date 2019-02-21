@@ -5,6 +5,13 @@ author: Sam Nolan
 categories: [Tutorial]
 ---
 
+Programming club Welcome event: Learn to make your own profile 
+page for employers.
+
+<!-- more -->
+
+## Create your own profile page with GitHub
+-----
 Hey everyone,
 
 You probably got here for our the RMIT Programming Club Welcome event. So here
