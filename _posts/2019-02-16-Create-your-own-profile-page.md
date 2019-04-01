@@ -25,12 +25,9 @@ It's an exceptional example of a profile page.
 So without further ado, let's get into it!
 
 ## 1. Creating a GitHub account
-To start, you will need a GitHub account. GitHub is like PornHub for developers.
-
-Just Kidding!
-
 GitHub is a platform that allows sharing and collaboration when developing software.
-If you don't have a GitHub account now, you will need one later.
+It's like the facebook for developers. If you don't have a GitHub account now, 
+you will need one later.
 
 GitHub also tracks your contribution to software projects, and therefore also serves as yet
 another resume, and is definitely checked by employers.
@@ -91,7 +88,8 @@ invest in a good text editor. I would recommend "Sublime Text" if
 you want something simple that works, or "VS Code" if you want the full experience.
 
 My personal preference is "vim" which is something complicated that doesn't work.
-Would not recommend using it under any circumstance
+You can go for that if you want to be a real neckbeard developer, Sam or Michael
+would be very happy to teach you.
 
 ## 5. Upload the code
 Now we can upload the code! Go to your github repository page and click "Upload files"
