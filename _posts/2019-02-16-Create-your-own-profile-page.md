@@ -71,11 +71,11 @@ To create the branch, click the branch:master button and type into the field
 gh-pages branch!
 
 ## 4. Download the template code and start coding!
-We have created a template for you to start off with. You can download it here:
-link.
+We have created a template for you to start off with. You can download it [here](https://github.com/patrickmfsd/simpleProfile.github.io).
+Just click "clone or download" and then "Download zip"
 
 Download the zip file and extract it into a new folder. You will have index.html
-and index.css. Index.html contains the content of your website, whereas index.css
+and index.css inside the css folder. Index.html contains the content of your website, whereas index.css
 contains the styling rules. So open up index.html.
 
 These files are both plain text files, and you will need a program that can open
