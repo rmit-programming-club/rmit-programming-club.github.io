@@ -25,8 +25,7 @@ So without further ado, let's get into it!
 
 ## 1. Creating a GitLab account
 To start, you will need a GitLab account. GitLab is a platform that allows sharing
-and collaboration when developing software. If you don't have a GitLab account now,
-you will need one later.
+and collaboration when developing software.
 
 Why GitLab? The more famous platform out there for collaborating on software
 is GitHub. However, they have
