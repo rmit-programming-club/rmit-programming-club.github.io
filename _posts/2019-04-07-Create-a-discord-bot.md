@@ -8,10 +8,6 @@ categories: [Workshop]
 How to make a discord bot. Tuesday the 9th's workshop
 <!-- more -->
 
-
-## Discord bots and Node.js
------
-
 Hey everyone!
 
 Today we'll be looking into the wonderful world if discord and chat bots! We'll
@@ -57,7 +53,7 @@ registers a connection with discord, and then your bot comes online. Any request
 are sent to your code and then your code can do whatever they wish when they get
 the message.
 
-The code for a simple sample is [here](https://github.com/Hazelfire/DiscordBotSample)
+The code for a simple sample is [here](https://github.com/rmit-programming-club/DiscordBotSample)
 Click "Clone and Download" then "download zip" to bring it down to your computer,
 or clone it properly if you know your git.
 
