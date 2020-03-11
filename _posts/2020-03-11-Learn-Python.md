@@ -70,11 +70,11 @@ To print more things, add more print statements! Find the nearest person, get th
 name and their star sign. 
 
 As I'm writing this, I have a friend in the row in front of me that I've just
-met named Daniel. I did not get his start sign, but let's say his is Leo.
+met named Daniel. His star sign is Pisces
 
 ```python
 print("Hello Daniel")
-print("It's fantastic to meet a Leo!")
+print("It's fantastic to meet a Pisces!")
 ```
 
 Run the script!
@@ -100,7 +100,7 @@ Run it!
 My star sign is Cancer, and I honestly think that users to my application who
 have the cancer star sign should get special treatement.
 
-we can do this with an if statement. Here's an example:
+We can do this with an if statement. Here's an example:
 
 ```python
 starsign = input("What is your star sign? ")
@@ -188,7 +188,7 @@ print("Yay! Can we go home now?")
 
 Run it! This keeps asking whether we are there until you say "Yes".
 
-### Go for it!
+### Keep going!
 
 Other resources that might be useful for writing your text adventure:
 
