@@ -49,13 +49,19 @@ Installing Python is pretty simple, just go to the
 [python website](https://www.python.org/downloads/) and it will tell you how 
 it's done. Just get the newest version.
 
+
 ### Starting with Python
 We'll be making a very simple text adventure in Python. We'll start with learning
 how to print things, then how to get input from the user, then how to use that
 input to respond to the user in more intelligent ways.
 
 To start working with Python, open IDLE (which should be installed on your computer
-after installing Python) and write the following into the text box and run it:
+after installing Python). You should get the "Python Shell". Type in `1 + 2` into
+that shell and see if you get the universe is still in order.
+
+Go File -> New File.
+
+You should get a screen with a textbox on it and write the following into the text box:
 
 ```python
 print("Hello World")
@@ -99,6 +105,56 @@ print("It's fantastic to meet a " + star_sign + "!")
 
 Run it!
 
+Keep in mind these names like `input`, `name`, `star_sign` and `print` are all
+case sensative. This means that you must type them exactly as said, no `Name` or
+`NAME`.
+
+### Variables
+Variables are places where you can store information throughout your program.
+Every variable has a type, `name = input("What is your name? ")` gets input
+from the user as a **string** (Which is the same as text) and puts it is the `name`
+variable.
+
+Variables can change value over time, for instance:
+
+```python
+# The variable starts off with a type of "string" (text). To change it into a number,
+# we have to wrap it in the int function
+my_money = int(input("How much money do you have? "))
+
+print("Merry Christmas! Here's $1,000,000")
+my_money = my_money + 1000000
+
+# I need to change this back to a string, as you cannot add an int (number) to text
+print("Now you have $" + str(my_money))
+```
+
+To type strings you can put the quotes around the text you want, e.g.
+
+```python
+print("100")
+```
+
+To type numbers, ignore the quotes
+
+```python
+print(100)
+```
+
+Try the following:
+
+```python
+print("Hello " + "World")
+print("100" + "2")
+print(100 + 2)
+```
+
+and finally
+
+```python
+print("100" + 2)
+```
+
 ### If statements
 My star sign is Cancer, and I honestly think that users to my application who
 have the cancer star sign should get special treatement.
@@ -123,6 +179,39 @@ if password == "Sneaky Socks":
 else:
     print("Access Denied")
 ```
+
+### Fancy If Statements
+You can nest if statements
+
+```python
+username = input("What's your username")
+
+if username == "Slarty Barkfast":
+  password = input("What's your password? ")
+  if password == "Sneaky Socks":
+      print("Access Granted")
+  else:
+      print("Invalid Password")
+else:
+  print("No such user")
+```
+
+and you can do multiple branches with elif
+
+```python
+weapon = input("Choose your weapon! ")
+
+if weapon == "Sword":
+  print("You brandish a mighty sword")
+elif weapon == "Bow":
+  print("May the odds be ever in your favour")
+elif weapon == "Pen":
+  print("You brandish the strongest weapon of all")
+else:
+  print("Hazaar, a " + weapon)
+```
+
+
 
 ### Let's get to it
 Let's start building this text adventure!
@@ -192,13 +281,25 @@ print("Yay! Can we go home now?")
 
 Run it! This keeps asking whether we are there until you say "Yes".
 
+### Math
+If you want to try out some math, clear out your file and put the following:
+
+```python
+print(1 + 2)
+print(2 * 3)
+# This is 2 to the power of 3 (2 cubed)
+print(2 ** 3)
+print(4 / 3)
+# This is floor division, it divides and rounds down
+print(4 // 3)
+```
+
+
 ### Keep going!
 
 Other resources that might be useful for writing your text adventure:
 
-I'll update this page with explanations of questions made in the tutorial
-
 - [Python Strings](https://www.w3schools.com/python/python_strings.asp)
 - [Official docs](https://docs.python.org/3/tutorial/)
-- [Math](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
+- [Learn Python the hard way](https://www.amazon.com.au/Learn-Python-Hard-Way-Introduction/dp/0321884914)
 - [Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
