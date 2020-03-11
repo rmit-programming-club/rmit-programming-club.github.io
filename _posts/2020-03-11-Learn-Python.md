@@ -14,9 +14,9 @@ have never touched programming!
 ## Learning how to Program in Python
 -----
 
-Python!
-
 ![Python xkcd](https://imgs.xkcd.com/comics/python.png)
+
+Python!
 
 First of all, a disclaimer. The person who wrote this is a human, and there
 may be technologies I am unaware of.
