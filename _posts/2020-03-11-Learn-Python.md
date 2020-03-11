@@ -15,6 +15,7 @@ have never touched programming!
 -----
 
 Python!
+![Python xkcd](https://imgs.xkcd.com/comics/python.png)
 
 First of all, a disclaimer. The person who wrote this is a human, and there
 may be technologies I am unaware of.
@@ -70,7 +71,7 @@ To print more things, add more print statements! Find the nearest person, get th
 name and their star sign. 
 
 As I'm writing this, I have a friend in the row in front of me that I've just
-met named Daniel. His star sign is Pisces
+met named Daniel. His star sign is Pisces.
 
 ```python
 print("Hello Daniel")
@@ -89,7 +90,7 @@ We can get input from the user by using the `input` method:
 name = input("What is your name? ")
 print("Hello " + name)
 # This is a comment, I can write anything after this and it is ignored
-# name and starsign are called "variables", and variables cannot have any spaces
+# name and star_sign are called "variables", and variables cannot have any spaces
 # in there names, so we use underscores
 star_sign = input("What is your star sign? ")
 print("It's fantastic to meet a " + star_sign + "!")
@@ -130,11 +131,12 @@ Let's start building this text adventure!
 
 # This is an import statement, it allows me to create random numbers, you'll
 # see it used later
+# https://piximus.net/media/15087/essays-written-in-programming-languages-1.jpg
 import random
 
-name = input("What is your name?")
-quest = input("What is your quest?")
-favcolor = input("What is your favourite color?")
+name = input("What is your name? ")
+quest = input("What is your quest? ")
+favcolor = input("What is your favourite color? ")
 
 """
 Another way to do comments is to just put 3 quotes to start and end the comment,
@@ -176,13 +178,13 @@ One important thing is looping, that is, doing things again and again until
 some condition is satisfied.
 
 ```python
-we_are_there = input("Are we there yet?")
+we_are_there = input("Are we there yet? ")
 
 # Before we used == to check whether two things are equal
 # != is the opposite, and checks whether it is not equal
 # it reads, while wearethere does not equal "Yes"
 while we_are_there != "Yes":
-    we_are_there = input("Are we there yet?")
+    we_are_there = input("Are we there yet? ")
 
 print("Yay! Can we go home now?")
 ```
