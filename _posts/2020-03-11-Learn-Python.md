@@ -27,7 +27,7 @@ If you're here, you probably know what Python is, but before we go on:
 Python will not be for you if you want to do the following things:
 
 - Build a website (Check out [HTML](https://www.w3schools.com/html/))
-- Build a professional game (Check out [Game Maker](https://www.yoyogames.com/gamemaker) or [Unity](https://unity.com/))
+- Build a professional game (Check out [Game Maker](https://www.yoyogames.com/gamemaker) or [Unity](https://unity.com/) or [Godot](https://godotengine.org/))
 - Build a Mobile Application (Check out [Android](https://developer.android.com/training/basics/firstapp) or [iOS](https://developer.apple.com/develop/) development)
 
 Python will be for you if you want to:
