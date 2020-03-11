@@ -89,9 +89,10 @@ We can get input from the user by using the `input` method:
 name = input("What is your name? ")
 print("Hello " + name)
 # This is a comment, I can write anything after this and it is ignored
-# name and starsign are called "variables", and variables cannot have any spaces in their names
-starsign = input("What is your star sign? ")
-print("It's fantastic to meet a " + name + "!")
+# name and starsign are called "variables", and variables cannot have any spaces
+# in there names, so we use underscores
+star_sign = input("What is your star sign? ")
+print("It's fantastic to meet a " + star_sign + "!")
 ```
 
 Run it!
@@ -103,11 +104,11 @@ have the cancer star sign should get special treatement.
 We can do this with an if statement. Here's an example:
 
 ```python
-starsign = input("What is your star sign? ")
-if starsign == "Cancer":
+star_sign = input("What is your star sign? ")
+if star_sign == "Cancer":
     print("Oh! So am I!")
 else:
-    print("That's awesome! " + starsign + " is my equal second favourite star sign!")
+    print("That's awesome! " + star_sign + " is my equal second favourite star sign!")
 ```
 
 Here's another example
@@ -175,13 +176,13 @@ One important thing is looping, that is, doing things again and again until
 some condition is satisfied.
 
 ```python
-wearethere = input("Are we there yet?")
+we_are_there = input("Are we there yet?")
 
 # Before we used == to check whether two things are equal
 # != is the opposite, and checks whether it is not equal
 # it reads, while wearethere does not equal "Yes"
-while wearethere != "Yes":
-    wearethere = input("Are we there yet?")
+while we_are_there != "Yes":
+    we_are_there = input("Are we there yet?")
 
 print("Yay! Can we go home now?")
 ```
