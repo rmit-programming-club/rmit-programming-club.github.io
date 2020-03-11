@@ -15,6 +15,7 @@ have never touched programming!
 -----
 
 Python!
+
 ![Python xkcd](https://imgs.xkcd.com/comics/python.png)
 
 First of all, a disclaimer. The person who wrote this is a human, and there
