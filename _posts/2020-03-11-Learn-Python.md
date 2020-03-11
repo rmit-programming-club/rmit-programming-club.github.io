@@ -98,7 +98,7 @@ name = input("What is your name? ")
 print("Hello " + name)
 # This is a comment, I can write anything after this and it is ignored
 # name and star_sign are called "variables", and variables cannot have any spaces
-# in there names, so we use underscores
+# in their names, so we use underscores
 star_sign = input("What is your star sign? ")
 print("It's fantastic to meet a " + star_sign + "!")
 ```
@@ -272,7 +272,7 @@ we_are_there = input("Are we there yet? ")
 
 # Before we used == to check whether two things are equal
 # != is the opposite, and checks whether it is not equal
-# it reads, while wearethere does not equal "Yes"
+# it reads, while we_are_there does not equal "Yes"
 while we_are_there != "Yes":
     we_are_there = input("Are we there yet? ")
 
