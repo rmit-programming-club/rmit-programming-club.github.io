@@ -29,6 +29,8 @@ favicon: /images/favicon.png
 # Site Logo
 sitelogo: /images/site-logo.png
 
+profiles: /images/Profiles/
+
 # Footer Logo
 footerlogo: /images/footerlogo.png
 
@@ -43,6 +45,7 @@ projects: "/projects"
 membership: "https://rusu.rmit.edu.au/Clubs/programming"
 contact: "/contact"
 about: "/about"
+people_page: "/people"
 sponsors: "/sponsors"
 store: "https://www.redbubble.com/people/rmitprogramming/shop"
 resources: "/resoureces"
@@ -71,5 +74,8 @@ exclude:
   - CNAME
 
 collections:
+  people: 
+    output: true
+    layout: page
   meetings:
     output: true
