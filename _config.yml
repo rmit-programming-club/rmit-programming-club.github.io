@@ -12,7 +12,7 @@ tagline: Code. Connect. Contribute.
 description: Offical Website for RMIT Programming Club.
 
 # Your website URL 
-url: http://rmitprogramming.club
+url: http://theprogramming.club 
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -29,12 +29,14 @@ favicon: /images/favicon.png
 # Site Logo
 sitelogo: /images/site-logo.png
 
+profiles: /images/Profiles/
+
 # Footer Logo
 footerlogo: /images/footerlogo.png
 
 # Social Links
-github: https://github.com/rmit-programming-club/
-facebook: https://www.facebook.com/groups/rmitprogramming.club/
+github_username: rmit-programming-club
+fb_username: rmitprogramming.club
 email: programming.club@rmit.edu.au
 
 # Nav Bar Links (Add new or change pages if your site requires it)
@@ -43,6 +45,7 @@ projects: "/projects"
 membership: "https://rusu.rmit.edu.au/Clubs/programming"
 contact: "/contact"
 about: "/about"
+people_page: "/people"
 sponsors: "/sponsors"
 store: "https://www.redbubble.com/people/rmitprogramming/shop"
 resources: "/resoureces"
@@ -50,7 +53,7 @@ resources: "/resoureces"
 # !! You don't need to change any of the configuration flags below !!
 
 # Pagenate support
-paginate: 4 # Post limit more than this content is hidden behind footer
+paginate: 5
 paginate_path: "/page:num/"
 
 permalink: /:title/
@@ -71,5 +74,8 @@ exclude:
   - CNAME
 
 collections:
+  people: 
+    output: true
+    layout: page
   meetings:
     output: true

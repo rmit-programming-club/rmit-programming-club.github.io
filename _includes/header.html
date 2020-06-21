@@ -1,11 +1,11 @@
  
  <div class="site-header">
  
-	 <!-- Icon Bar (Github, Facbook, Dark Mode Togle -->
+	 <!-- Icon Bar (Github, Facebook, Dark Mode Toggle -->
 	<div class="col-md-12 iconbar">
-		<a title="GitHub" href="{{ site.github }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-		<a title="Facebook" href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-		<a title="Dark Mode"><i onclick="theme()" class="fa fa-adjust theme" aria-hidden="true"></i></a>
+		<a id="gh" title="GitHub" href="{{ site.github }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+		<a id="fb" title="Facebook" href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+		<a id="dm" title="Dark Mode"><i onclick="theme()" class="fa fa-adjust theme" aria-hidden="true"></i></a>
 	</div>
 	
 	<!-- Logo -->
@@ -31,9 +31,11 @@
 			<li class="nav-item">
 				<a class="nav-link" href="{{ site.baseurl }}{{ site.blog }}">Blog</a>
 			</li>
+			<!--
 			<li class="nav-item">
 				<a class="nav-link" href="{{ site.baseurl }}{{ site.projects }}">Projects</a>
 			</li>
+			-->
 			<li class="nav-item">
 				<a class="nav-link" href="{{ site.baseurl }}{{ site.membership }}" target="_blank">Membership</a>
 			</li>
@@ -42,10 +44,15 @@
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="{{ site.baseurl }}{{ site.contact }}">Contact</a>
-			</li>    
+			</li>  
+			<li class="nav-item">
+				<a class="nav-link" href="{{ site.baseurl }}{{ site.people_page }}">People</a>
+			</li>  
+			<!--  
 			<li class="nav-item">
 				<a class="nav-link" href="{{ site.baseurl }}{{ site.sponsors }}">Sponsors</a>
 			</li>
+			-->
 			<li class="nav-item">
 				<a class="nav-link" href="{{ site.baseurl }}{{ site.store }}">Store</a>
 			</li>
