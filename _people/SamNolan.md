@@ -16,7 +16,8 @@ I am interested in a lot of different types of technoligies, but am particularly
 fond of:
 
  - Haskell
- - Functional Programming 
+ - Elm
+ - Functional Programming
  - PostgreSQL
  - Data Analysis
  - Build Systems
