@@ -2,7 +2,7 @@
 layout: page
 title: Hunter Varghese
 name: Hunter Varghese
-position: pleb
+position: Member
 ---
 <img alt="Sam Nolan" width="250px" src= "/images/Profiles/SamNolan.jpg" />
 
