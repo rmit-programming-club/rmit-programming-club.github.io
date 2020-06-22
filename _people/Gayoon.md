@@ -18,6 +18,5 @@ I am interested the following:
  - [Facebook](https://www.facebook.com/gayan.wijesuriya.731/)
 
 
-## Things I have done for the club
- - Not much tbh
+
 
