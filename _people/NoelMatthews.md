@@ -2,7 +2,7 @@
 layout: page
 title: Noel Matthews
 name: Noel Matthews
-position: Clueless
+position: Member
 ---
 
 I am a first year I am a third year BP094 Bachelor of Computer Science student. I transferred from ACU having studied Law/Commerce for 3 years.
