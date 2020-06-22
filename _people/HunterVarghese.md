@@ -6,6 +6,8 @@ position: pleb
 ---
 <img alt="Sam Nolan" width="250px" src= "/images/Profiles/SamNolan.jpg" />
 
+^how do I change this
+
 I am a second year BP094 Bachelor of Computer Science student.
 
 I am not the President of the RMIT Programming Club, or the Treasurer of the
@@ -21,11 +23,14 @@ interest in:
  - Build Systems
 
 ## Socials
- - [GitHub](https://github.com/Hazelfire/)
- - [Facebook](https://www.facebook.com/sam.nolan.5030)
- - [LinkedIn](https://www.linkedin.com/in/sam-nolan-51b868157/)
+ - [GitHub]
+ - [Facebook]
+ - [LinkedIn]
+ - [MySpace]
+ - [Tiktok]
+ - [Reddit]
 
-## Things I have done for the club
+## Things I have not done for the club
  - Coded the round table bot and has run all the socials for the programming club
  - Helped organise teams for Ludum Dare.
  - Helped plan the Trivia Night with Thomas Frantz
