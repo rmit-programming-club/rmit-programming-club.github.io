@@ -22,7 +22,7 @@ Most of my time is spent studying but my main interests are in
  - [GitHub](https://github.com/Prydeton/)
  - [Facebook](https://www.facebook.com/profile.php?id=100009958428352)
  - [LinkedIn](https://www.linkedin.com/in/maxwellreid/)
- - [Website]{(http://maxwellreid.tech/)
+ - [Website](http://maxwellreid.tech/)
 
 ## Events I have helped organise
  - Ludum Dare 46
