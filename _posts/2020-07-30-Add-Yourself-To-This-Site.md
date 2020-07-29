@@ -13,7 +13,7 @@ This tutorial will show you how to add yourself to this very site!
 ## How to add yourself to this site
 -----
 
-You may have noticed, that we have a [super not-so-secret page](/people/) dedicated
+You may have noticed that we have a [super not-so-secret page](/people/) dedicated
 to the coolest members and executive of the club. If you are one of the coolest
 members of our club and you're not on this page, here's how you remedy the situation.
 
