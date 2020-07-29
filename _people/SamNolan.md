@@ -12,7 +12,7 @@ Student. (Which is basically Computer science + an honours year)
 I am the President of the RMIT Programming Club, as well as the Treasurer of the
 [RMIT CSIT Society](https://csitsociety.club/)
 
-I am interested in a lot of different types of technoligies, but am particularly
+I am interested in a lot of different types of technologies, but am particularly
 fond of:
 
  - Haskell
