@@ -73,7 +73,7 @@ Tick "Commit directly to the master branch"
 ![Commit](/images/AddYourself/Commit.png)
 
 Once you've done that, you should get a little bar above the folder saying that
-"this branch is 1 commit ahead of rmit-programming-club-master. Click the "Pull
+"This branch is 1 commit ahead of rmit-programming-club-master". Click the "Pull
 Request" button on that message. This is for asking us whether we are ok with
 the change that you made on your version. When we accept your pull request, you
 will be properly added to the site.
