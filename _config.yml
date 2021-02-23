@@ -42,7 +42,7 @@ email: programming.club@rmit.edu.au
 # Nav Bar Links (Add new or change pages if your site requires it)
 blog: "/" 
 projects: "/projects"
-membership: "https://rusu.rmit.edu.au/Clubs/programming"
+membership: "/signup"
 contact: "/contact"
 about: "/about"
 people_page: "/people"
