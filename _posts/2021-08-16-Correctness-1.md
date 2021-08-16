@@ -7,6 +7,8 @@ categories: [Workshop]
 This tutorial will teach you TypeScript
 
 <!-- more -->
+## Correctness: TypeScript
+-----
 
 Of all considerations of making software, software being correct is probably the
 biggest one.
