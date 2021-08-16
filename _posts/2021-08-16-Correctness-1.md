@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Correctness Series: Frontend Websites and TypeScript
+title: "Correctness Series: Frontend Websites and TypeScript"
 author: Sam Nolan
 categories: [Workshop]
 ---
