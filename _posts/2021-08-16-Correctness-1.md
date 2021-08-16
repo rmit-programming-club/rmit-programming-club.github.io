@@ -4,6 +4,9 @@ title: Correctness Series: Frontend Websites and TypeScript
 author: Sam Nolan
 categories: [Workshop]
 ---
+This tutorial will teach you TypeScript
+
+<!-- more -->
 
 Of all considerations of making software, software being correct is probably the
 biggest one.
