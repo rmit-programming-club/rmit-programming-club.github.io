@@ -1,3 +1,12 @@
+---
+layout: post
+title: Linux Workshop
+Author: Isaac Hawkins
+categories: [event, linux]
+---
+
+
+
 # Table of Contents
 
 1.  [Why linux](#org2cf7b3c)
