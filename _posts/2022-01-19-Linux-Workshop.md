@@ -5,7 +5,9 @@ Author: Isaac Hawkins
 categories: [event, linux]
 ---
 
+Linux NGINX tutorial
 
+<!--- more -->
 
 # Table of Contents
 
