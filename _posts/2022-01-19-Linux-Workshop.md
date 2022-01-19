@@ -5,10 +5,8 @@ Author: Isaac Hawkins
 categories: [Workshops]
 ---
 
-Linux NGINX tutorial
-
+Linux workshop showing you how to setup Ubuntu in VMware and set up NGINX.
 <!-- more -->
-
 # Table of Contents
 
 1.  [Why linux](#org2cf7b3c)
