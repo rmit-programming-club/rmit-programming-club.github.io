@@ -2,12 +2,12 @@
 layout: post
 title: Linux Workshop
 Author: Isaac Hawkins
-categories: [event, linux]
+categories: [Workshops]
 ---
 
 Linux NGINX tutorial
 
-<!--- more -->
+<!-- more -->
 
 # Table of Contents
 
