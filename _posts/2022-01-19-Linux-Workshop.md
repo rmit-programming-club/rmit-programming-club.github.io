@@ -139,9 +139,9 @@ Linux workshop showing you how to setup Ubuntu in VMware and set up NGINX.
 -   A terminal Window should now show up on the screen like so:
     ![Raw](/images/linux/Ubuntu_4.png)
 -   To make sure the system is up-to-date, we have to run
-
+```
     sudo apt update
-
+```
 -   **apt** is what is known as a package manager
     -   A package mangager is a tool used by linux admins to make sure that software is installed, kept up to date and mangaged properly
     -   Package managers allow Linux servers to be configured quickly and easily
@@ -151,9 +151,9 @@ Linux workshop showing you how to setup Ubuntu in VMware and set up NGINX.
 ![Raw](/images/linux/Ubuntu_5.png)
 
 -   Enter into the terminal
-    
+```    
         sudo apt install nginx
-    
+```    
     -   This is asking the package mangager to install a package known as **nginx**
     -   nginx is what we will be using to host a website off of this virtual machine
 -   When the package manager asks if you want to continue, Type capital **Y**, and it will install the nginx to our virtual machine
@@ -166,18 +166,18 @@ Linux workshop showing you how to setup Ubuntu in VMware and set up NGINX.
 # Setting up Nginx
 
 -   When the installation is done, we will be back at our shell, and we can check that status of ufw with the following command
-
+```
     sudo ufw status
-
+```
 -   This command should have the output showing nginx is not active
 
 ![Raw](/images/linux/Ubuntu_7.png)
 
 -   We can activate nginx with two commands
-
+```
     sudo ufw enable
     sudo ufw allow 'Nginx HTTP'
-
+```
 ![Raw](/images/linux/Ubuntu_9.png)
 
 -   These commands tell ufw to turn on and allow HTTP connections on port 80
@@ -203,9 +203,9 @@ Linux workshop showing you how to setup Ubuntu in VMware and set up NGINX.
     -   Should we prepare a HTML file for them to host
 -   Make sure your HTML file is called index.html
 -   In the terminal use cd (change directory) to navigate to the directory with your html files in it
-
+```
     sudo mv *.html /var/www/html/
-
+```
 -   \* is whats called a wildcard, it can be used to select multiple files matching a condition
     -   In this case the condition is a file ending in .html
     -   If you have css, image or any other kinds of files on your website use them as well (\*.css, \*.png/jpg/gif, \*.js for example)
@@ -213,8 +213,8 @@ Linux workshop showing you how to setup Ubuntu in VMware and set up NGINX.
 -   To be safe we will restart Nginx using systemd
     -   Systemd is a linux utility that is used to manage programs known as damons
     -   damons are background services that run utilities
-
+```
     sudo systemctl restart nginx
-
+```
 -   Now if you go to your website again, you will see it has updated with your page
 
