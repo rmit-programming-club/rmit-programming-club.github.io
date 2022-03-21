@@ -47,7 +47,7 @@ contact: "/contact"
 about: "/about"
 people_page: "/people"
 sponsors: "/sponsors"
-store: "https://www.redbubble.com/people/rmitprogramming/shop"
+  #store: "https://www.redbubble.com/people/rmitprogramming/shop"
 resources: "/resoureces"
 
 # !! You don't need to change any of the configuration flags below !!
