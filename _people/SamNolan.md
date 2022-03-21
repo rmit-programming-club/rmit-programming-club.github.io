@@ -2,7 +2,7 @@
 layout: page
 title: Sam Nolan
 name: Sam Nolan
-position: President
+position: Former-President
 ---
 <img alt="Sam Nolan" width="250px" src= "/images/Profiles/SamNolan.jpg" />
 
