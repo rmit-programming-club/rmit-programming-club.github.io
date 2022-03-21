@@ -2,7 +2,7 @@
 layout: page
 title: Isaac Hawkins
 name: Isaac Hawkins
-position: Vice President
+position: Vice-President
 ---
 
 ![Picture](/images/Profiles/Isaac.jpg){: width="350"}
